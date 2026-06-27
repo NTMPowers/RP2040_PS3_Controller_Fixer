@@ -1,0 +1,6 @@
+# Build folders
+build_cfw/
+build_hen/
+
+# Output folder
+output/
