@@ -112,5 +112,5 @@ echo     ^> Plain DS3 emulation, no button combo.
 echo.
 echo   RP2040_PS3_PS3HEN_Controller_Fixer.uf2
 echo     ^> DS3 emulation + Left, Left, X combo
-echo     ^> triggered 35 seconds after boot.
+echo     ^> triggered 30 seconds after boot.
 echo ================================================

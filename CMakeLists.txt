@@ -31,12 +31,16 @@ add_executable(RP2040_PS3_Controller_Fixer
     src/usb_descriptors.c
 )
 
+pico_generate_pio_header(RP2040_PS3_Controller_Fixer ${CMAKE_CURRENT_LIST_DIR}/src/ws2812.pio)
+
 target_include_directories(RP2040_PS3_Controller_Fixer PRIVATE src)
 
 target_link_libraries(RP2040_PS3_Controller_Fixer
     pico_stdlib
     tinyusb_device
     tinyusb_board
+	hardware_pio
+	hardware_clocks
 )
 
 # Pass the ENABLE_COMBO flag to the compiler if enabled
