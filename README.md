@@ -14,7 +14,7 @@ Run `build.bat` to build both and place them in the `output` folder.
 ## Features
 
 ### Manual Combo (Boot Button)
-Pressing the boot button sends **SELECT + L3 + L1 + R1**, which triggers **Refresh XML + Reload XMB** on the PS3.
+Pressing the boot button sends **SELECT + L3 + L1 + R1**, which triggers **Refresh XML + Reload XMB** in webMAN MOD on the PS3.
 
 ### Automatic Startup Combo (PS3HEN variant only)
 30 seconds after power-on, the firmware automatically sends LEFT + LEFT + X to auto click on Enable HEN.
