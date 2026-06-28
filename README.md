@@ -25,5 +25,5 @@ Pressing the boot button sends **SELECT + L3 + L1 + R1**, which triggers **Refre
 |-------|---------|
 | 🔴 Red | Waiting for USB connection |
 | 🟢 Green | USB connected (shown for 3 seconds) |
-| ⚫ Off | Idle / connected |
 | 🔵 Blue | Combo being sent |
+| ⚫ Off | Idle / connected |
